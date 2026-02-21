@@ -1,0 +1,1 @@
+@php $date = new App\Http\Controllers\Frontend\HomeController(); @endphp {{$getdate = $date->get_time_ago(strtotime("2023-07-23 19:12:21")) }}
